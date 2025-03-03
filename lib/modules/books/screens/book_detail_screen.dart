@@ -856,12 +856,9 @@ class _BookDetailHeaderState extends ConsumerState<BookDetailHeader>
                     Navigator.of(context).pop();
                     ref.read(bookProvider.notifier).removeBook();
                   },
-                  child: Transform.scale(
-                    scale: _scale,
-                    child: Icon(
-                      Icons.delete_rounded,
-                      color: Theme.of(context).colorScheme.error,
-                    ),
+                  child: Icon(
+                    Icons.delete_rounded,
+                    color: Theme.of(context).colorScheme.error,
                   ),
                 ),
               ],

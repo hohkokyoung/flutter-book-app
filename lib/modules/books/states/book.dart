@@ -52,7 +52,7 @@ class BookRepository {
 
   static final List<Book> _books = [
     Book(
-      id: 1,
+      id: 2,
       title: "#1 Book Title",
       description:
           "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, c",
@@ -77,7 +77,7 @@ class BookRepository {
       highlights: [],
     ),
     Book(
-      id: 2,
+      id: 3,
       title: "#2 Book Title",
       description:
           "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, c",
@@ -96,7 +96,7 @@ class BookRepository {
       highlights: [],
     ),
     Book(
-      id: 3,
+      id: 4,
       title: "Hacking APIs: Breaking Web Application Programming Interfaces",
       description:
           "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, c",
@@ -182,8 +182,13 @@ class LatestReadBookNotifier extends AsyncNotifier<Book?> {
   BookRepository get _repository => ref.read(bookRepositoryProvider);
 
   Future<Book> fetchLatestReadBook() async {
-    final latestReadBook = await _repository.fetchLatestReadBook();
-    return latestReadBook;
+    try {
+      final latestReadBook = await _repository.fetchLatestReadBook();
+      return latestReadBook;
+    } catch (e) {
+      print(e);
+      return _repository.defaultBooks.first;
+    }
   }
 
   void syncState(Book updatedBook) {
@@ -338,10 +343,10 @@ class BookNotifier extends AsyncNotifier<Book?> {
 
   void _updateState(Book Function(Book) update, {bool syncState = true}) {
     final bookState = state.value;
+
     if (bookState == null) return;
 
     state = AsyncData(update(bookState));
-
     if (syncState) {
       ref.read(booksProvider.notifier).syncState(state.value!);
       ref.read(latestReadBookProvider.notifier).syncState(state.value!);
