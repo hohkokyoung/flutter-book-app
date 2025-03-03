@@ -23,26 +23,26 @@ A **Flutter-powered** book reading application that leverages **Riverpod** for s
 ## 📸 Screenshots
 
 ### 📌 Home & Book Management  
-<img src="screenshots/HomePage.png" alt="Home Page" width="400">  
-<img src="screenshots/BookListPage.png" alt="Book List Page" width="400">  
-<img src="screenshots/AddBookPage.png" alt="Add Book Page" width="400">  
-<img src="screenshots/BookEditingPage.png" alt="Edit Book Page" width="400">  
-<img src="screenshots/BookEditingPagePreview.png" alt="Preview Edit Book Page" width="400">  
-<img src="screenshots/BookListPageAdded.png" alt="Book List Added Page" width="400">  
-<img src="screenshots/BookViewPage.png" alt="Book Detail Page" width="400">  
+<img src="screenshots/HomePage.png" alt="Home Page" width="300">  
+<img src="screenshots/BookListPage.png" alt="Book List Page" width="300">  
+<img src="screenshots/AddBookPage.png" alt="Add Book Page" width="300">  
+<img src="screenshots/BookEditingPage.png" alt="Edit Book Page" width="300">  
+<img src="screenshots/BookEditingPagePreview.png" alt="Preview Edit Book Page" width="300">  
+<img src="screenshots/BookListPageAdded.png" alt="Book List Added Page" width="300">  
+<img src="screenshots/BookViewPage.png" alt="Book Detail Page" width="300">  
 
 ### 📖 Reading & PDF Features  
-<img src="screenshots/BookPdfPage.png" alt="Book Pdf Page" width="400">  
-<img src="screenshots/BookBookmark.png" alt="Book Bookmark" width="400">  
-<img src="screenshots/BookPdfToolbar.png" alt="Book Toolbar" width="400">  
-<img src="screenshots/BookPdfHighlight.png" alt="Book Highlight Page" width="400">  
-<img src="screenshots/BookPdfAddNote.png" alt="Book Add Note Page" width="400">  
-<img src="screenshots/BookPdfNoteHighlight.png" alt="Book Note Highlight Page" width="400">  
+<img src="screenshots/BookPdfPage.png" alt="Book Pdf Page" width="300">  
+<img src="screenshots/BookBookmark.png" alt="Book Bookmark" width="300">  
+<img src="screenshots/BookPdfToolbar.png" alt="Book Toolbar" width="300">  
+<img src="screenshots/BookPdfHighlight.png" alt="Book Highlight Page" width="300">  
+<img src="screenshots/BookPdfAddNote.png" alt="Book Add Note Page" width="300">  
+<img src="screenshots/BookPdfNoteHighlight.png" alt="Book Note Highlight Page" width="300">  
 
 ### 📑 Organization & Notes  
-<img src="screenshots/BookIndexPage.png" alt="Book Index Page" width="400">  
-<img src="screenshots/BookBookmarkPage.png" alt="Book Bookmark Page" width="400">  
-<img src="screenshots/BookNotePage.png" alt="Book Note Page" width="400">  
+<img src="screenshots/BookIndexPage.png" alt="Book Index Page" width="300">  
+<img src="screenshots/BookBookmarkPage.png" alt="Book Bookmark Page" width="300">  
+<img src="screenshots/BookNotePage.png" alt="Book Note Page" width="300">  
 
 ## 🚀 Getting Started
 
