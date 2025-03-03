@@ -1,4 +1,4 @@
-# 📖 Flutter Book App  
+# 📖 Flutter Book App - Booksum
 
 A **Flutter-powered** book reading application that leverages **Riverpod** for state management, offering a seamless and feature-rich reading experience.  
 
