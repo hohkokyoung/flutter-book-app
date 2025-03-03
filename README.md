@@ -22,38 +22,27 @@ A **Flutter-powered** book reading application that leverages **Riverpod** for s
 
 ## 📸 Screenshots
 
-![Home Page](screenshots/HomePage.png)
+### 📌 Home & Book Management  
+<img src="screenshots/HomePage.png" alt="Home Page" width="400">  
+<img src="screenshots/BookListPage.png" alt="Book List Page" width="400">  
+<img src="screenshots/AddBookPage.png" alt="Add Book Page" width="400">  
+<img src="screenshots/BookEditingPage.png" alt="Edit Book Page" width="400">  
+<img src="screenshots/BookEditingPagePreview.png" alt="Preview Edit Book Page" width="400">  
+<img src="screenshots/BookListPageAdded.png" alt="Book List Added Page" width="400">  
+<img src="screenshots/BookViewPage.png" alt="Book Detail Page" width="400">  
 
-![Book List Page](screenshots/BookListPage.png)
+### 📖 Reading & PDF Features  
+<img src="screenshots/BookPdfPage.png" alt="Book Pdf Page" width="400">  
+<img src="screenshots/BookBookmark.png" alt="Book Bookmark" width="400">  
+<img src="screenshots/BookPdfToolbar.png" alt="Book Toolbar" width="400">  
+<img src="screenshots/BookPdfHighlight.png" alt="Book Highlight Page" width="400">  
+<img src="screenshots/BookPdfAddNote.png" alt="Book Add Note Page" width="400">  
+<img src="screenshots/BookPdfNoteHighlight.png" alt="Book Note Highlight Page" width="400">  
 
-![Add Book Page](screenshots/AddBookPage.png)
-
-![Edit Book Page](screenshots/BookEditingPage.png)
-
-![Preview Edit Book Page](screenshots/BookEditingPagePreview.png)
-
-![Book List Added Page](screenshots/BookListPageAdded.png)
-
-![Book Detail Page](screenshots/BookViewPage.png)
-
-![Book Pdf Page](screenshots/BookPdfPage.png)
-
-![Book Bookmark](screenshots/BookBookmark.png)
-
-![Book Toolbar](screenshots/BookPdfToolbar.png)
-
-![Book Highlight Page](screenshots/BookPdfHighlight.png)
-
-![Book Add Note Page](screenshots/BookPdfAddNote.png)
-
-![Book Note Highlight Page](screenshots/BookPdfNoteHighlight.png)
-
-![Book Index Page](screenshots/BookIndexPage.png)
-
-![Book Bookmark Page](screenshots/BookBookmarkPage.png)
-
-![Book Note Page](screenshots/BookNotePage.png)
-
+### 📑 Organization & Notes  
+<img src="screenshots/BookIndexPage.png" alt="Book Index Page" width="400">  
+<img src="screenshots/BookBookmarkPage.png" alt="Book Bookmark Page" width="400">  
+<img src="screenshots/BookNotePage.png" alt="Book Note Page" width="400">  
 
 ## 🚀 Getting Started
 
