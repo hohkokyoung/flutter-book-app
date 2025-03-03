@@ -1,16 +1,66 @@
-# booksum
+# 📖 Flutter Book App  
 
-A new Flutter project.
+A **Flutter-powered** book reading application that leverages **Riverpod** for state management, offering a seamless and feature-rich reading experience.  
 
-## Getting Started
+## ✨ Features  
 
-This project is a starting point for a Flutter application.
+- 📊 **Reading Statistics** – Track total reading time, daily progress, and session history.  
+- 📚 **Book Library** – View a list of added books with details.  
+- 📖 **Latest Read Book** – Quickly access the most recently read book.  
+- ➕ **Add New Books** – Upload books in **PDF format** to the library.  
+- 🔍 **Book Viewer** – Read books with smooth PDF rendering.  
+- 🖍️ **Highlight & Notes** – Mark important text and add personal notes.  
+- 🔖 **Bookmarks** – Save specific pages for quick reference.  
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter** – UI Framework  
+- **Riverpod** – State Management  
+- **Dart** – Programming Language  
+- **pdfrx** – PDF Rendering  
+- **Path Provider** – Local Storage
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+![Home Page](screenshots/HomePage.png)
+
+![Book List Page](screenshots/BookListPage.png)
+
+![Add Book Page](screenshots/AddBookPage.png)
+
+![Edit Book Page](screenshots/BookEditingPage.png)
+
+![Preview Edit Book Page](screenshots/BookEditingPagePreview.png)
+
+![Book List Added Page](screenshots/BookListPageAdded.png)
+
+![Book Detail Page](screenshots/BookViewPage.png)
+
+![Book Pdf Page](screenshots/BookPdfPage.png)
+
+![Book Bookmark](screenshots/BookBookmark.png)
+
+![Book Toolbar](screenshots/BookPdfToolbar.png)
+
+![Book Highlight Page](screenshots/BookPdfHighlight.png)
+
+![Book Add Note Page](screenshots/BookPdfAddNote.png)
+
+![Book Note Highlight Page](screenshots/BookPdfNoteHighlight.png)
+
+![Book Index Page](screenshots/BookIndexPage.png)
+
+![Book Bookmark Page](screenshots/BookBookmarkPage.png)
+
+![Book Note Page](screenshots/BookNotePage.png)
+
+
+## 🚀 Getting Started
+
+### Prerequisites  
+Ensure you have Flutter installed.
+
+git clone https://github.com/hohkokyoung/flutter-book-app.git
+cd booksum
+flutter pub get
+flutter run
